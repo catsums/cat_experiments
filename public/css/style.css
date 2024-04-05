@@ -1,0 +1,42 @@
+body {
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+  width: 100dvw;
+  height: 100lvh;
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .form {
+  border: thin solid black;
+  padding: 4em;
+}
+main .form .image {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  --size: 100pt;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  margin: 1em;
+}
+main .form .textbox {
+  padding: 0.5em;
+  border-radius: 4pt;
+  border: thin solid black;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+main .form .btn {
+  background-color: white;
+  border: thin solid black;
+  padding: 0.5em;
+  border-radius: 4pt;
+}
