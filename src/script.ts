@@ -51,9 +51,9 @@ function setImage(url:string){
 }
 
 let images = {
-	unfocus: "assets/frames/f0000.png",
-	open: "assets/frames/f0019.png",
-	close: "assets/frames/f0012.png",
+	unfocus: "https://res.cloudinary.com/dnopalook/image/upload/f0000.png",
+	open: "https://res.cloudinary.com/dnopalook/image/upload/f0019.png",
+	close: "https://res.cloudinary.com/dnopalook/image/upload/f0012.png",
 }
 let anims = {
 	idle: new AnimObject(".image", {
@@ -61,27 +61,27 @@ let anims = {
 		loop: -1,
 		frames:[
 			{
-				src: 'assets/frames/f0000.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0000.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0001.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0001.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0002.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0002.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0003.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0003.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0004.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0004.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0005.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0005.png`,
 				hold: 10,
 			},
 		],
@@ -90,27 +90,27 @@ let anims = {
 		fps: 12,
 		frames:[
 			{
-				src: 'assets/frames/f0005.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0005.png`,
 				hold: 2,
 			},
 			{
-				src: 'assets/frames/f0007.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0007.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0009.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0009.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0010.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0010.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0011.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0011.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0012.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0012.png`,
 				hold: 1,
 			},
 		],
@@ -119,44 +119,44 @@ let anims = {
 		fps: 12,
 		frames:[
 			{
-				src: 'assets/frames/f0005.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0005.png`,
 				hold: 2,
 			},
 			{
-				src: 'assets/frames/f0007.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0007.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0009.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0009.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0010.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0010.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0011.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0011.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0012.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0012.png`,
 				hold: 1,
 			},
 
 			{
-				src: 'assets/frames/f0016.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0016.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0017.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0017.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0018.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0018.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0019.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0019.png`,
 				hold: 1,
 			},
 		],
@@ -165,23 +165,23 @@ let anims = {
 		fps: 12,
 		frames:[
 			{
-				src: 'assets/frames/f0012.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0012.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0016.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0016.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0017.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0017.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0018.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0018.png`,
 				hold: 1,
 			},
 			{
-				src: 'assets/frames/f0019.png',
+				src: `https://res.cloudinary.com/dnopalook/image/upload/f0019.png`,
 				hold: 1,
 			},
 		],

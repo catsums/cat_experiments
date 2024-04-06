@@ -1,7 +1,7 @@
 {
   "name": "catexperiment",
   "version": "1.0.0",
-  "description": "",
+  "description": "Experimenting with forms and visuals reacting to form inputs",
   "main": "index.js",
   "scripts": {
     "build": "npm run bundle",
@@ -9,7 +9,7 @@
     "watch": "ts-node build.ts --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "catsums",
   "license": "ISC",
   "devDependencies": {
     "@types/animejs": "^3.1.12",
@@ -32,5 +32,13 @@
     "animejs": "^3.2.2",
     "jquery": "^3.7.1",
     "lodash": "^4.17.21"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catsums/cat_experiments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/catsums/cat_experiments/issues"
+  },
+  "homepage": "https://github.com/catsums/cat_experiments#readme"
 }
